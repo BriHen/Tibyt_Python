@@ -8,7 +8,7 @@
 import base64
 import os
 
-folder_of_images = "MarioandYoshi_imageset/"  # Where the imaged are located
+folder_of_images = "../LighthouseSet/"  # Where the imaged are located
 text_file = "image_64.txt"  # The name of the text file where the base64 lines will be saved
 
 
