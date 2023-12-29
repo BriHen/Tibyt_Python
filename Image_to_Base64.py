@@ -40,6 +40,7 @@ def images_in_folder(folder_path):
 # Start loop to take all images within folder, generate Base64, and append to text file
 with open(text_file, 'w') as file:
     for image in images_in_folder(folder_of_images):
+        print(image)
         png_image_path = folder_of_images + image
         base64_result = image_to_base64(png_image_path)
         file.write('"""' + base64_result + '""",' + "\n")  # Format was made for Pixlet format
